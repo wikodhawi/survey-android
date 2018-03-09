@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="main.survey.com.survey.MenuActivity"
+    tools:layout_editor_absoluteY="89dp">
+
+    <TextView
+        android:id="@+id/username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:text="username"
+        android:textStyle="bold"
+        android:textColor="@android:color/holo_orange_dark"
+        android:textSize="30dp"/>
+
+    <Button
+        android:id="@+id/camera"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:text="camera" />
+
+    <Button
+        android:id="@+id/btnMenuOrder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:text="Order Menu" />
+
+    <Button
+        android:id="@+id/btnMenuSend"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:text="Send Menu" />
+
+    <Button
+        android:id="@+id/cobaScroll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:text="coba scroll" />
+
+    <Button
+        android:id="@+id/btnLogout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:text="Logout" />
+
+</LinearLayout>
